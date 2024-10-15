@@ -1,0 +1,14 @@
+manifest:
+  self:
+    path: application
+  remotes:
+    - name: nrf
+      url-base: https://github.com/FilipZajdel
+  projects:
+    - name: sdk-nrf
+      remote: nrf
+      path: nrf
+      revision: build_info_fork
+      import:
+        path-prefix: external
+      clone-depth: 1
