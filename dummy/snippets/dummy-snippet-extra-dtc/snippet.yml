@@ -1,0 +1,5 @@
+
+name: dummy-snippet-extra-dtc
+append:
+  EXTRA_DTC_OVERLAY_FILE: dummy.overlay
+  EXTRA_CONF_FILE: dummy.conf

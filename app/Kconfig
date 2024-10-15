@@ -1,0 +1,13 @@
+
+
+source "Kconfig.zephyr"
+
+menu "Blinky app configuration"
+
+config SLEEP_TIME_MS
+    int "LED toggle interval"
+    default 500
+    help
+      Set the interval between each LED's toggle.
+
+endmenu

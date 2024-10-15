@@ -1,0 +1,9 @@
+
+/{
+
+    dummy {
+        compatible = "nordic,dummy";
+        dummy-prop-enum = "hot";
+        dummy-prop1 = < 0x11 >;
+    };
+};

@@ -1,0 +1,8 @@
+
+menu "DUMMY"
+    config ENABLE_DUMMY
+        bool "Enables dummy"
+        default n
+        help
+          Enables dummy
+endmenu

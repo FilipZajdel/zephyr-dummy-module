@@ -1,0 +1,8 @@
+
+name: dummy
+build:
+  cmake: .
+  kconfig: Kconfig.dummy
+  settings:
+    dts_root: .
+    snippet_root: .

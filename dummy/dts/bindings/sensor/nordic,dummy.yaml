@@ -1,0 +1,23 @@
+
+
+description: Dummy sensor
+
+compatible: "nordic,dummy"
+
+include: base.yaml
+
+properties:
+  dummy-prop1:
+    type: int
+    required: true
+    description: |
+      The sensor needs some dummy property
+
+  dummy-prop-enum:
+    type: string
+    required: true
+    enum:
+      - "hot"
+      - "cold"
+    description: |
+      Another dummy property. Enum this time.
